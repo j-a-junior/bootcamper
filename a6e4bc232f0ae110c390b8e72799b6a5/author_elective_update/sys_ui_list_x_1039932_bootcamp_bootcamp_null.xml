@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1039932_bootcamp_bootcamp" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_1039932_bootcamp_bootcamp" element="NULL" name="x_1039932_bootcamp_bootcamp" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9028f4272f0ae110c390b8e72799b651</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 23:14:55</sys_created_on>
+            <sys_id>9c28f4272f0ae110c390b8e72799b651</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 23:14:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1039932_bootcamp_bootcamp</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 23:14:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9028f4272f0ae110c390b8e72799b651</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1039932_bootcamp_bootcamp</sys_name>
+            <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+            <sys_update_name>sys_ui_list_x_1039932_bootcamp_bootcamp_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 23:14:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</application>
+        <file_path/>
+        <instance_id>a8d49a3fdbffd304ff27d5b0cf96192a</instance_id>
+        <instance_name>dev70559</instance_name>
+        <name>sys_ui_list_x_1039932_bootcamp_bootcamp_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1039932_bootcamp_bootcamp" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_created_on</element><list_id display_value="x_1039932_bootcamp_bootcamp" element="NULL" name="x_1039932_bootcamp_bootcamp" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9028f4272f0ae110c390b8e72799b651</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-12 23:14:55</sys_created_on><sys_id>9c28f4272f0ae110c390b8e72799b651</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-12 23:14:55</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1039932_bootcamp_bootcamp</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-12 23:14:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9028f4272f0ae110c390b8e72799b651</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1039932_bootcamp_bootcamp</sys_name><sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package><sys_policy/><sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope><sys_update_name>sys_ui_list_x_1039932_bootcamp_bootcamp_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-12 23:14:55</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1431295269</payload_hash>
+        <record_name>Bootcamp</record_name>
+        <reverted_from/>
+        <source>e2e4bc232f0ae110c390b8e72799b6a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 23:14:55</sys_created_on>
+        <sys_id>1828f4272f0ae110c390b8e72799b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18777c02b860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 23:14:55</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>d428f427970ae110136b3b5ff43f8c53</update_guid>
+        <update_guid_history>d428f427970ae110136b3b5ff43f8c53:1431295269</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 23:15:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>79eeb28878554a92b253bbfed4d35044</sys_id>
+        <sys_metadata>9028f4272f0ae110c390b8e72799b651</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1039932_bootcamp_bootcamp</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_parent display_value="">751738e32f0ae110c390b8e72799b620</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_scope_delete display_value="">09b3b650c8de46108874836462fa9840</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1039932_bootcamp_bootcamp_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1039932_bootcamp_bootcamp_null">1828f4272f0ae110c390b8e72799b653</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 23:15:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

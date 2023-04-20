@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>curso_bootcamp</internal_name>
+        <layout>2across</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 18:51:20</sys_created_on>
+        <sys_id>61357a592fd26110c390b8e72799b64b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Curso Bootcamp</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name>item_option_new_set_61357a592fd26110c390b8e72799b64b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 18:58:42</sys_updated_on>
+        <title>Curso Bootcamp</title>
+        <type>one_to_many</type>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</application>
+        <file_path/>
+        <instance_id>a8d49a3fdbffd304ff27d5b0cf96192a</instance_id>
+        <instance_name>dev70559</instance_name>
+        <name>item_option_new_set_61357a592fd26110c390b8e72799b64b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>false</display_title><internal_name>curso_bootcamp</internal_name><layout>2across</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-18 18:51:20</sys_created_on><sys_id>61357a592fd26110c390b8e72799b64b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Curso Bootcamp</sys_name><sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package><sys_policy/><sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope><sys_update_name>item_option_new_set_61357a592fd26110c390b8e72799b64b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-18 18:58:42</sys_updated_on><title>Curso Bootcamp</title><type>one_to_many</type><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>595324831</payload_hash>
+        <record_name>Curso Bootcamp</record_name>
+        <reverted_from/>
+        <source>e2e4bc232f0ae110c390b8e72799b6a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 18:58:42</sys_created_on>
+        <sys_id>2d07fad92fd26110c390b8e72799b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18795bbc0cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 18:58:42</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>2507fad992d26110c1542cb95896afc5</update_guid>
+        <update_guid_history>2507fad992d26110c1542cb95896afc5:595324831,21557a596ad26110ea76762f1b25eecb:15144825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Curso Bootcamp">b04044a12f1a6110c390b8e72799b6ce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:18:41</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>039a4a2cb80e432681320fa89f82edc9</sys_id>
+        <sys_metadata>61357a592fd26110c390b8e72799b64b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Curso Bootcamp</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_scope_delete display_value="">09b3b650c8de46108874836462fa9840</sys_scope_delete>
+        <sys_update_name>item_option_new_set_61357a592fd26110c390b8e72799b64b</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_61357a592fd26110c390b8e72799b64b">2d07fad92fd26110c390b8e72799b6c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:18:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

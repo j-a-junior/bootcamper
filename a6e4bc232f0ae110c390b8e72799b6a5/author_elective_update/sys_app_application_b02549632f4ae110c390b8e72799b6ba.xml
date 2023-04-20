@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>ro</name>
+        <order>100</order>
+        <roles>x_1039932_bootcamp.profile_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 00:11:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b02549632f4ae110c390b8e72799b6ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Profiles</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name>sys_app_application_b02549632f4ae110c390b8e72799b6ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 00:17:06</sys_updated_on>
+        <title>Profiles</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</application>
+        <file_path/>
+        <instance_id>a8d49a3fdbffd304ff27d5b0cf96192a</instance_id>
+        <instance_name>dev70559</instance_name>
+        <name>sys_app_application_b02549632f4ae110c390b8e72799b6ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>ro</name><order>100</order><roles>x_1039932_bootcamp.profile_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-13 00:11:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b02549632f4ae110c390b8e72799b6ba</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Profiles</sys_name><sys_overrides/><sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package><sys_policy/><sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope><sys_update_name>sys_app_application_b02549632f4ae110c390b8e72799b6ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-13 00:17:06</sys_updated_on><title>Profiles</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>776905576</payload_hash>
+        <record_name>Profiles</record_name>
+        <reverted_from/>
+        <source>e2e4bc232f0ae110c390b8e72799b6a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 00:17:06</sys_created_on>
+        <sys_id>5f564da32f4ae110c390b8e72799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18777f91b7e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 00:17:06</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>97564da3854ae110fef7c5d1ec2647fc</update_guid>
+        <update_guid_history>97564da3854ae110fef7c5d1ec2647fc:776905576,302549639f4ae11016a10f0af199e6bc:163972814</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Profiles">8ebb492b2f4ae110c390b8e72799b6d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 00:40:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>968931f797d140e494194ad1e52d2964</sys_id>
+        <sys_metadata>b02549632f4ae110c390b8e72799b6ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Profiles</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_scope_delete display_value="">09b3b650c8de46108874836462fa9840</sys_scope_delete>
+        <sys_update_name>sys_app_application_b02549632f4ae110c390b8e72799b6ba</sys_update_name>
+        <sys_update_version display_value="sys_app_application_b02549632f4ae110c390b8e72799b6ba">5f564da32f4ae110c390b8e72799b6fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 00:40:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

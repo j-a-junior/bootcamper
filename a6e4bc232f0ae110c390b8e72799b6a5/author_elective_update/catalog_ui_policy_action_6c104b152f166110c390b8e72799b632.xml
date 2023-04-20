@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="RP Bootcampers">2e711ddd2f5e2110c390b8e72799b69d</catalog_item>
+        <catalog_variable>IO:211fb6d12f166110c390b8e72799b6bc</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 19:39:06</sys_created_on>
+        <sys_id>6c104b152f166110c390b8e72799b632</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bootcamper</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6c104b152f166110c390b8e72799b632</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 19:39:06</sys_updated_on>
+        <table/>
+        <ui_policy display_value="UI Police - Course">b5267a992fd26110c390b8e72799b6ee</ui_policy>
+        <variable>bootcamper</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</application>
+        <file_path/>
+        <instance_id>a8d49a3fdbffd304ff27d5b0cf96192a</instance_id>
+        <instance_name>dev70559</instance_name>
+        <name>catalog_ui_policy_action_6c104b152f166110c390b8e72799b632</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="RP Bootcampers">2e711ddd2f5e2110c390b8e72799b69d</catalog_item><catalog_variable>IO:211fb6d12f166110c390b8e72799b6bc</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-18 19:39:06</sys_created_on><sys_id>6c104b152f166110c390b8e72799b632</sys_id><sys_mod_count>0</sys_mod_count><sys_name>bootcamper</sys_name><sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package><sys_policy/><sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope><sys_update_name>catalog_ui_policy_action_6c104b152f166110c390b8e72799b632</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-18 19:39:06</sys_updated_on><table/><ui_policy display_value="UI Police - Course">b5267a992fd26110c390b8e72799b6ee</ui_policy><variable>bootcamper</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-718569695</payload_hash>
+        <record_name>bootcamper</record_name>
+        <reverted_from/>
+        <source>e2e4bc232f0ae110c390b8e72799b6a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 19:39:06</sys_created_on>
+        <sys_id>6940cb152f166110c390b8e72799b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18795e0bed80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 19:39:06</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>a140cb157616611041bdb00452257edd</update_guid>
+        <update_guid_history>a140cb157616611041bdb00452257edd:-718569695</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="bootcamper">b6132b552f966110c390b8e72799b68b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 22:11:18</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>9d440bd01418471689f18f202daeb544</sys_id>
+        <sys_metadata>6c104b152f166110c390b8e72799b632</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bootcamper</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_scope_delete display_value="">09b3b650c8de46108874836462fa9840</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_6c104b152f166110c390b8e72799b632</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_6c104b152f166110c390b8e72799b632">6940cb152f166110c390b8e72799b6dd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 22:11:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

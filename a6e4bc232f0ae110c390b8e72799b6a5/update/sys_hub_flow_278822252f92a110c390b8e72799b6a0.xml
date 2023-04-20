@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>subflow_task_2</internal_name>
+        <label_cache>[{"name":"d57a1f7e-3dce-467b-95d1-da9958e32ef9.record","label":"1 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d57a1f7e-3dce-467b-95d1-da9958e32ef9.table_name","label":"1 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d57a1f7e-3dce-467b-95d1-da9958e32ef9.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"d57a1f7e-3dce-467b-95d1-da9958e32ef9.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"36dab22b-a253-4937-a010-5585ad653ba3.Record","label":"1 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36dab22b-a253-4937-a010-5585ad653ba3.Table","label":"1 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36dab22b-a253-4937-a010-5585ad653ba3.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36dab22b-a253-4937-a010-5585ad653ba3.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36dab22b-a253-4937-a010-5585ad653ba3.Record.state","label":"1 - Create Task➛Tasks Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1039932_bootcamp_tasks","column_name":"state","choices":[{"label":"New","used":false,"image":"","reference":false,"rawLabel":"New","selected":false,"missing":false,"value":"1","parameters":{"name":"service_task"}},{"label":"Work in Progress","used":false,"image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"service_task"}},{"label":"Completed","used":false,"image":"","reference":false,"rawLabel":"Completed","selected":false,"missing":false,"value":"3","parameters":{"name":"service_task"}},{"label":"Canceled","used":false,"image":"","reference":false,"rawLabel":"Canceled","selected":false,"missing":false,"value":"4","parameters":{"name":"service_task"}}]},{"name":"f19da030-41f8-422f-982c-354b49ea6fa5.Record","label":"3 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f19da030-41f8-422f-982c-354b49ea6fa5.Table","label":"3 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f19da030-41f8-422f-982c-354b49ea6fa5.__action_status__","label":"3 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f19da030-41f8-422f-982c-354b49ea6fa5.__dont_treat_as_error__","label":"3 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddc76e18-7bcc-4f31-8903-526ca4f4bce2.Record","label":"1 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddc76e18-7bcc-4f31-8903-526ca4f4bce2.Table","label":"1 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddc76e18-7bcc-4f31-8903-526ca4f4bce2.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddc76e18-7bcc-4f31-8903-526ca4f4bce2.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.context","label":"5 - Apply Changes From Source Control With ID➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.status","label":"5 - Apply Changes From Source Control With ID➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3c6928f7-0b8f-4ffb-b8c2-5f17f403e1ec"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.error","label":"5 - Apply Changes From Source Control With ID➛Error","reference_display":"Error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a142725d-27c0-4fc3-8ff3-e07603e1c897"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.status_label","label":"5 - Apply Changes From Source Control With ID➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"48a1b7bf-678f-4cc9-8aa2-19c1d241ae90"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.status_message","label":"5 - Apply Changes From Source Control With ID➛Status Message","reference_display":"Status Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e542d30-ac5d-4033-92a0-53869ce608c1"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.status_detail","label":"5 - Apply Changes From Source Control With ID➛Status Detail","reference_display":"Status Detail","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"69392198-dcd4-4722-b35f-8427519372ba"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.http_status","label":"5 - Apply Changes From Source Control With ID➛HTTP Status","reference_display":"HTTP Status","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"de5fe77a-d7aa-4c32-8c53-1cf6e62843d2"}},{"name":"188f1771-d230-4ca8-88cf-e79a911b2682.context","label":"5 - Subflow Task 2➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master_snapshot>881e2ea92f92a110c390b8e72799b652</master_snapshot>
+        <name>Subflow Task 2</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:33:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>278822252f92a110c390b8e72799b6a0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Subflow Task 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name>sys_hub_flow_278822252f92a110c390b8e72799b6a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:57</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=278822252f92a110c390b8e72799b6a0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=278822252f92a110c390b8e72799b6a0"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=278822252f92a110c390b8e72799b6a0"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=278822252f92a110c390b8e72799b6a0"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=278822252f92a110c390b8e72799b6a0^sys_idNOT IN238822252f92a110c390b8e72799b6a1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>278822252f92a110c390b8e72799b6a0</id>
+        <name>Subflow Task 2</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:33:58</sys_created_on>
+        <sys_id>238822252f92a110c390b8e72799b6a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:33:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=238822252f92a110c390b8e72799b6a1"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=278822252f92a110c390b8e72799b6a0"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=278822252f92a110c390b8e72799b6a0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=278822252f92a110c390b8e72799b6a0"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=278822252f92a110c390b8e72799b6a0^sys_idNOT IN3bcda6a92f92a110c390b8e72799b600,bfcda6a92f92a110c390b8e72799b60c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Subflow Task 2">278822252f92a110c390b8e72799b6a0</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:56:55</sys_created_on>
+        <sys_id>3bcda6a92f92a110c390b8e72799b600</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-19 13:04:31</sys_updated_on>
+        <ui_id>36dab22b-a253-4937-a010-5585ad653ba3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3bcda6a92f92a110c390b8e72799b600"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3bcda6a92f92a110c390b8e72799b600</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:56:55</sys_created_on>
+        <sys_id>33cda6a92f92a110c390b8e72799b603</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:56:55</sys_updated_on>
+        <value>x_1039932_bootcamp_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3bcda6a92f92a110c390b8e72799b600</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:56:55</sys_created_on>
+        <sys_id>f7cda6a92f92a110c390b8e72799b603</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:56:55</sys_updated_on>
+        <value>assigned_to={"display":"Instrutor 2","value":"a44184e12f1a6110c390b8e72799b6ee","table":"sys_user","sys_id":"a44184e12f1a6110c390b8e72799b6ee"}^description=Novo Bootcamper Cadastrado via Flow</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=3bcda6a92f92a110c390b8e72799b600"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3bcda6a92f92a110c390b8e72799b600"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3bcda6a92f92a110c390b8e72799b600"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Subflow Task 2">278822252f92a110c390b8e72799b6a0</flow>
+        <order>3</order>
+        <parent_ui_id>63e6cb21-c42f-4135-91bd-037302b502fa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:56:55</sys_created_on>
+        <sys_id>bfcda6a92f92a110c390b8e72799b60c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-19 13:04:31</sys_updated_on>
+        <ui_id>f19da030-41f8-422f-982c-354b49ea6fa5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bfcda6a92f92a110c390b8e72799b60c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfcda6a92f92a110c390b8e72799b60c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:56:55</sys_created_on>
+        <sys_id>37cda6a92f92a110c390b8e72799b60e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:56:55</sys_updated_on>
+        <value>x_1039932_bootcamp_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfcda6a92f92a110c390b8e72799b60c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:56:55</sys_created_on>
+        <sys_id>f7cda6a92f92a110c390b8e72799b60e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:56:55</sys_updated_on>
+        <value>assigned_to={"display":"Instrutor 2","value":"a44184e12f1a6110c390b8e72799b6ee","table":"sys_user","sys_id":"a44184e12f1a6110c390b8e72799b6ee"}</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=bfcda6a92f92a110c390b8e72799b60c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bfcda6a92f92a110c390b8e72799b60c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bfcda6a92f92a110c390b8e72799b60c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=278822252f92a110c390b8e72799b6a0^sys_idNOT IN544ea2e92f92a110c390b8e72799b68d"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Subflow Task 2">278822252f92a110c390b8e72799b6a0</flow>
+        <inputs/>
+        <order>5</order>
+        <parent_ui_id/>
+        <subflow display_value="Subflow Task 2">881e2ea92f92a110c390b8e72799b652</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:52</sys_created_on>
+        <sys_id>544ea2e92f92a110c390b8e72799b68d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:57</sys_updated_on>
+        <ui_id>188f1771-d230-4ca8-88cf-e79a911b2682</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=544ea2e92f92a110c390b8e72799b68d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>544ea2e92f92a110c390b8e72799b68d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:53</sys_created_on>
+        <sys_id>2c4ea2e92f92a110c390b8e72799b6b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:53</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">1c4ea2e92f92a110c390b8e72799b68e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_544ea2e92f92a110c390b8e72799b68d^id=544ea2e92f92a110c390b8e72799b68d"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=544ea2e92f92a110c390b8e72799b68d^sys_idNOT IN1c4ea2e92f92a110c390b8e72799b68e"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">544ea2e92f92a110c390b8e72799b68d</model>
+        <model_id>544ea2e92f92a110c390b8e72799b68d</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_544ea2e92f92a110c390b8e72799b68d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:52</sys_created_on>
+        <sys_id>1c4ea2e92f92a110c390b8e72799b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=544ea2e92f92a110c390b8e72799b68d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=278822252f92a110c390b8e72799b6a0^sys_idNOT IN3bcda6a92f92a110c390b8e72799b604,b3cda6a92f92a110c390b8e72799b60f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7fcda6a92f92a110c390b8e72799b603</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Subflow Task 2">278822252f92a110c390b8e72799b6a0</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:56:55</sys_created_on>
+        <sys_id>3bcda6a92f92a110c390b8e72799b604</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:57</sys_updated_on>
+        <ui_id>63e6cb21-c42f-4135-91bd-037302b502fa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3bcda6a92f92a110c390b8e72799b604"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3bcda6a92f92a110c390b8e72799b604</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:56:55</sys_created_on>
+        <sys_id>77cda6a92f92a110c390b8e72799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:56:55</sys_updated_on>
+        <value>Se concluiu a task 1</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3bcda6a92f92a110c390b8e72799b604"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>3bcda6a92f92a110c390b8e72799b604</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:56:55</sys_created_on>
+        <sys_id>f3cda6a92f92a110c390b8e72799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:56:55</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{36dab22b-a253-4937-a010-5585ad653ba3.Record.state}}=3</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>3bcda6a92f92a110c390b8e72799b604</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:56:55</sys_created_on>
+        <sys_id>33cda6a92f92a110c390b8e72799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:56:55</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3bcda6a92f92a110c390b8e72799b604"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3bcda6a92f92a110c390b8e72799b604"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">fbcda6a92f92a110c390b8e72799b60e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Subflow Task 2">278822252f92a110c390b8e72799b6a0</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>63e6cb21-c42f-4135-91bd-037302b502fa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:56:55</sys_created_on>
+        <sys_id>b3cda6a92f92a110c390b8e72799b60f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:57</sys_updated_on>
+        <ui_id>cf4f4b5e-d028-4746-9217-95a1b759c7c3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b3cda6a92f92a110c390b8e72799b60f"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b3cda6a92f92a110c390b8e72799b60f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b3cda6a92f92a110c390b8e72799b60f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=278822252f92a110c390b8e72799b6a0"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=278822252f92a110c390b8e72799b6a0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_278822252f92a110c390b8e72799b6a0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_278822252f92a110c390b8e72799b6a0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_278822252f92a110c390b8e72799b6a0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_278822252f92a110c390b8e72799b6a0"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=278822252f92a110c390b8e72799b6a0"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=278822252f92a110c390b8e72799b6a0^sys_idNOT IN041e2ea92f92a110c390b8e72799b67b"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"041e2ea92f92a110c390b8e72799b67b","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Subflow Task 2">278822252f92a110c390b8e72799b6a0</plan_id>
+        <snapshot>4b8f2e6d2f92a110c390b8e72799b6f3</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>041e2ea92f92a110c390b8e72799b67b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:56</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>subflow_task_2</internal_name>
+        <label_cache>[{"name":"d57a1f7e-3dce-467b-95d1-da9958e32ef9.record","label":"1 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d57a1f7e-3dce-467b-95d1-da9958e32ef9.table_name","label":"1 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d57a1f7e-3dce-467b-95d1-da9958e32ef9.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"d57a1f7e-3dce-467b-95d1-da9958e32ef9.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"36dab22b-a253-4937-a010-5585ad653ba3.Record","label":"1 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36dab22b-a253-4937-a010-5585ad653ba3.Table","label":"1 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36dab22b-a253-4937-a010-5585ad653ba3.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36dab22b-a253-4937-a010-5585ad653ba3.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36dab22b-a253-4937-a010-5585ad653ba3.Record.state","label":"1 - Create Task➛Tasks Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1039932_bootcamp_tasks","column_name":"state","choices":[{"label":"New","used":false,"image":"","reference":false,"rawLabel":"New","selected":false,"missing":false,"value":"1","parameters":{"name":"service_task"}},{"label":"Work in Progress","used":false,"image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"service_task"}},{"label":"Completed","used":false,"image":"","reference":false,"rawLabel":"Completed","selected":false,"missing":false,"value":"3","parameters":{"name":"service_task"}},{"label":"Canceled","used":false,"image":"","reference":false,"rawLabel":"Canceled","selected":false,"missing":false,"value":"4","parameters":{"name":"service_task"}}]},{"name":"f19da030-41f8-422f-982c-354b49ea6fa5.Record","label":"3 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f19da030-41f8-422f-982c-354b49ea6fa5.Table","label":"3 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f19da030-41f8-422f-982c-354b49ea6fa5.__action_status__","label":"3 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f19da030-41f8-422f-982c-354b49ea6fa5.__dont_treat_as_error__","label":"3 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddc76e18-7bcc-4f31-8903-526ca4f4bce2.Record","label":"1 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddc76e18-7bcc-4f31-8903-526ca4f4bce2.Table","label":"1 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddc76e18-7bcc-4f31-8903-526ca4f4bce2.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddc76e18-7bcc-4f31-8903-526ca4f4bce2.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.context","label":"5 - Apply Changes From Source Control With ID➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.status","label":"5 - Apply Changes From Source Control With ID➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3c6928f7-0b8f-4ffb-b8c2-5f17f403e1ec"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.error","label":"5 - Apply Changes From Source Control With ID➛Error","reference_display":"Error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a142725d-27c0-4fc3-8ff3-e07603e1c897"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.status_label","label":"5 - Apply Changes From Source Control With ID➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"48a1b7bf-678f-4cc9-8aa2-19c1d241ae90"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.status_message","label":"5 - Apply Changes From Source Control With ID➛Status Message","reference_display":"Status Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e542d30-ac5d-4033-92a0-53869ce608c1"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.status_detail","label":"5 - Apply Changes From Source Control With ID➛Status Detail","reference_display":"Status Detail","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"69392198-dcd4-4722-b35f-8427519372ba"}},{"name":"d512b6f4-ee26-46fa-adfc-b2499e1e2c28.http_status","label":"5 - Apply Changes From Source Control With ID➛HTTP Status","reference_display":"HTTP Status","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"de5fe77a-d7aa-4c32-8c53-1cf6e62843d2"}},{"name":"188f1771-d230-4ca8-88cf-e79a911b2682.context","label":"5 - Subflow Task 2➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Subflow Task 2</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Subflow Task 2">278822252f92a110c390b8e72799b6a0</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>881e2ea92f92a110c390b8e72799b652</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:56</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=881e2ea92f92a110c390b8e72799b652"/>
+    <sys_variable_value action="delete_multiple" query="document_key=881e2ea92f92a110c390b8e72799b652"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=881e2ea92f92a110c390b8e72799b652"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=881e2ea92f92a110c390b8e72799b652"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=881e2ea92f92a110c390b8e72799b652^sys_idNOT IN881e2ea92f92a110c390b8e72799b653"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>881e2ea92f92a110c390b8e72799b652</id>
+        <name>Subflow Task 2</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>881e2ea92f92a110c390b8e72799b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=881e2ea92f92a110c390b8e72799b653"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=881e2ea92f92a110c390b8e72799b652"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=881e2ea92f92a110c390b8e72799b652"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=881e2ea92f92a110c390b8e72799b652"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=881e2ea92f92a110c390b8e72799b652^sys_idNOT IN4c1e2ea92f92a110c390b8e72799b661,4c1e2ea92f92a110c390b8e72799b667"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Subflow Task 2">881e2ea92f92a110c390b8e72799b652</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>4c1e2ea92f92a110c390b8e72799b661</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:55</sys_updated_on>
+        <ui_id>36dab22b-a253-4937-a010-5585ad653ba3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4c1e2ea92f92a110c390b8e72799b661"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c1e2ea92f92a110c390b8e72799b661</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>841e2ea92f92a110c390b8e72799b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:02</sys_updated_on>
+        <value>assigned_to={"display":"Instrutor 2","value":"a44184e12f1a6110c390b8e72799b6ee","table":"sys_user","sys_id":"a44184e12f1a6110c390b8e72799b6ee"}^description=Novo Bootcamper Cadastrado via Flow</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c1e2ea92f92a110c390b8e72799b661</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>c01e2ea92f92a110c390b8e72799b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:02</sys_updated_on>
+        <value>x_1039932_bootcamp_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=4c1e2ea92f92a110c390b8e72799b661"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4c1e2ea92f92a110c390b8e72799b661"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4c1e2ea92f92a110c390b8e72799b661"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Subflow Task 2">881e2ea92f92a110c390b8e72799b652</flow>
+        <order>3</order>
+        <parent_ui_id>63e6cb21-c42f-4135-91bd-037302b502fa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>4c1e2ea92f92a110c390b8e72799b667</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:55</sys_updated_on>
+        <ui_id>f19da030-41f8-422f-982c-354b49ea6fa5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4c1e2ea92f92a110c390b8e72799b667"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c1e2ea92f92a110c390b8e72799b667</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>841e2ea92f92a110c390b8e72799b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:02</sys_updated_on>
+        <value>assigned_to={"display":"Instrutor 2","value":"a44184e12f1a6110c390b8e72799b6ee","table":"sys_user","sys_id":"a44184e12f1a6110c390b8e72799b6ee"}</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c1e2ea92f92a110c390b8e72799b667</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>c01e2ea92f92a110c390b8e72799b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:02</sys_updated_on>
+        <value>x_1039932_bootcamp_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=4c1e2ea92f92a110c390b8e72799b667"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4c1e2ea92f92a110c390b8e72799b667"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4c1e2ea92f92a110c390b8e72799b667"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=881e2ea92f92a110c390b8e72799b652^sys_idNOT IN454ee2e92f92a110c390b8e72799b674"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Subflow Task 2">881e2ea92f92a110c390b8e72799b652</flow>
+        <inputs/>
+        <order>5</order>
+        <parent_ui_id/>
+        <subflow display_value="Subflow Task 2">881e2ea92f92a110c390b8e72799b652</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:55</sys_created_on>
+        <sys_id>454ee2e92f92a110c390b8e72799b674</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:56</sys_updated_on>
+        <ui_id>188f1771-d230-4ca8-88cf-e79a911b2682</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=454ee2e92f92a110c390b8e72799b674"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>454ee2e92f92a110c390b8e72799b674</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:55</sys_created_on>
+        <sys_id>854ee2e92f92a110c390b8e72799b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">014ee2e92f92a110c390b8e72799b675</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_454ee2e92f92a110c390b8e72799b674^id=454ee2e92f92a110c390b8e72799b674"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=454ee2e92f92a110c390b8e72799b674^sys_idNOT IN014ee2e92f92a110c390b8e72799b675"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">454ee2e92f92a110c390b8e72799b674</model>
+        <model_id>454ee2e92f92a110c390b8e72799b674</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_454ee2e92f92a110c390b8e72799b674</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:55</sys_created_on>
+        <sys_id>014ee2e92f92a110c390b8e72799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=454ee2e92f92a110c390b8e72799b674"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=881e2ea92f92a110c390b8e72799b652^sys_idNOT IN401e2ea92f92a110c390b8e72799b65b,801e2ea92f92a110c390b8e72799b657"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">fbcda6a92f92a110c390b8e72799b60e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Subflow Task 2">881e2ea92f92a110c390b8e72799b652</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>63e6cb21-c42f-4135-91bd-037302b502fa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>401e2ea92f92a110c390b8e72799b65b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:56</sys_updated_on>
+        <ui_id>cf4f4b5e-d028-4746-9217-95a1b759c7c3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=401e2ea92f92a110c390b8e72799b65b"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=401e2ea92f92a110c390b8e72799b65b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=401e2ea92f92a110c390b8e72799b65b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7fcda6a92f92a110c390b8e72799b603</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Subflow Task 2">881e2ea92f92a110c390b8e72799b652</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>801e2ea92f92a110c390b8e72799b657</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:55</sys_updated_on>
+        <ui_id>63e6cb21-c42f-4135-91bd-037302b502fa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=801e2ea92f92a110c390b8e72799b657"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>801e2ea92f92a110c390b8e72799b657</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>441e2ea92f92a110c390b8e72799b65a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:02</sys_updated_on>
+        <value>Se concluiu a task 1</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=801e2ea92f92a110c390b8e72799b657"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>801e2ea92f92a110c390b8e72799b657</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>c01e2ea92f92a110c390b8e72799b65a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{36dab22b-a253-4937-a010-5585ad653ba3.Record.state}}=3</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>801e2ea92f92a110c390b8e72799b657</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:58:02</sys_created_on>
+        <sys_id>001e2ea92f92a110c390b8e72799b65a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:58:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=801e2ea92f92a110c390b8e72799b657"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=801e2ea92f92a110c390b8e72799b657"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=881e2ea92f92a110c390b8e72799b652"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=881e2ea92f92a110c390b8e72799b652"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_881e2ea92f92a110c390b8e72799b652"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_881e2ea92f92a110c390b8e72799b652"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_881e2ea92f92a110c390b8e72799b652"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_881e2ea92f92a110c390b8e72799b652"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>278822252f92a110c390b8e72799b6a0</sys_id>
+        <latest_snapshot>881e2ea92f92a110c390b8e72799b652</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch4b-01-31-2023_02-07-2023_1702.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

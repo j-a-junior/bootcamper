@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Creator" source="com.glide.service_creator">473c4f4ac59021108c8b506e733c4cf1</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:18:23</sys_created_on>
+        <sys_id>9030c0a12f1a6110c390b8e72799b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:18:23</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>flow_bootcamper</internal_name>
+        <label_cache>[{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__action_status__.message","label":"1 - Create Task➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.Table","label":"2 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.Record","label":"2 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.Table","label":"1 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.Record","label":"1 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>e3f3c0a52f1a6110c390b8e72799b677</master_snapshot>
+        <name>Flow Bootcamper</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>ae4198252f5a6110c390b8e72799b6a5</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:26:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d022cce12f1a6110c390b8e72799b6dc</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Flow Bootcamper</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name>sys_hub_flow_d022cce12f1a6110c390b8e72799b6dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:10</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_variable_value action="DELETE" query="document_key=d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_flow_record_trigger action="DELETE">
+        <active>true</active>
+        <condition table="x_1039932_bootcamp_bootcamper">course=Bootcamp<item display_value="Bootcamp" endquery="false" field="course" goto="false" newquery="false" operator="=" or="false" value="Bootcamp"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 01:33:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae4198252f5a6110c390b8e72799b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:04</sys_updated_on>
+        <table>x_1039932_bootcamp_bootcamper</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="DELETE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>d022cce12f1a6110c390b8e72799b6dc</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 01:33:04</sys_created_on>
+        <sys_id>2a4198252f5a6110c390b8e72799b6a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:04</sys_updated_on>
+        <trigger display_value="">ae4198252f5a6110c390b8e72799b6a5</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="DELETE" query="identifier=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT IN2a4198252f5a6110c390b8e72799b6a6"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT INb1f380a52f1a6110c390b8e72799b6ab"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow Bootcamper">d022cce12f1a6110c390b8e72799b6dc</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:51</sys_created_on>
+        <sys_id>b1f380a52f1a6110c390b8e72799b6ab</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:05</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=b1f380a52f1a6110c390b8e72799b6ab"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b1f380a52f1a6110c390b8e72799b6ab</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:51</sys_created_on>
+        <sys_id>b1f380a52f1a6110c390b8e72799b6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:51</sys_updated_on>
+        <value>course=Bootcamp</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b1f380a52f1a6110c390b8e72799b6ab</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:51</sys_created_on>
+        <sys_id>b9f380a52f1a6110c390b8e72799b6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:51</sys_updated_on>
+        <value>x_1039932_bootcamp_bootcamper</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="DELETE" query="flow=d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT INdc22cce12f1a6110c390b8e72799b6dc"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>d022cce12f1a6110c390b8e72799b6dc</id>
+        <name>Flow Bootcamper</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:26:51</sys_created_on>
+        <sys_id>dc22cce12f1a6110c390b8e72799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:26:51</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=dc22cce12f1a6110c390b8e72799b6dc"/>
+    <sys_hub_flow_input action="DELETE" query="model=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT IN69f380a52f1a6110c390b8e72799b6a1,a9f380a52f1a6110c390b8e72799b6a5"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Flow Bootcamper">d022cce12f1a6110c390b8e72799b6dc</model>
+        <model_id>d022cce12f1a6110c390b8e72799b6dc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:51</sys_created_on>
+        <sys_id>69f380a52f1a6110c390b8e72799b6a1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Flow Bootcamper">d022cce12f1a6110c390b8e72799b6dc</model>
+        <model_id>d022cce12f1a6110c390b8e72799b6dc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:51</sys_created_on>
+        <sys_id>a9f380a52f1a6110c390b8e72799b6a5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_hub_action_instance action="DELETE" query="flow=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT INf1f380a52f1a6110c390b8e72799b6b9,fdf380a52f1a6110c390b8e72799b6b1"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow Bootcamper">d022cce12f1a6110c390b8e72799b6dc</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:52</sys_created_on>
+        <sys_id>f1f380a52f1a6110c390b8e72799b6b9</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:05</sys_updated_on>
+        <ui_id>7092cc40-ea96-4a4a-a809-da90262aa02c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=f1f380a52f1a6110c390b8e72799b6b9"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f1f380a52f1a6110c390b8e72799b6b9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:52</sys_created_on>
+        <sys_id>3df380a52f1a6110c390b8e72799b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:52</sys_updated_on>
+        <value>description=Novo Bootcamper Cadastrado^assigned_to={"display":"Instrutor 2","value":"a44184e12f1a6110c390b8e72799b6ee","table":"sys_user","sys_id":"a44184e12f1a6110c390b8e72799b6ee"}</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f1f380a52f1a6110c390b8e72799b6b9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:52</sys_created_on>
+        <sys_id>79f380a52f1a6110c390b8e72799b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:52</sys_updated_on>
+        <value>x_1039932_bootcamp_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=f1f380a52f1a6110c390b8e72799b6b9"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=f1f380a52f1a6110c390b8e72799b6b9"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=f1f380a52f1a6110c390b8e72799b6b9"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow Bootcamper">d022cce12f1a6110c390b8e72799b6dc</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:51</sys_created_on>
+        <sys_id>fdf380a52f1a6110c390b8e72799b6b1</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:05</sys_updated_on>
+        <ui_id>92f39aee-2b0f-4f07-8a1a-ab951ada3c1e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=fdf380a52f1a6110c390b8e72799b6b1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fdf380a52f1a6110c390b8e72799b6b1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:51</sys_created_on>
+        <sys_id>3df380a52f1a6110c390b8e72799b6b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:32:29</sys_updated_on>
+        <value>description=Novo Bootcamper Cadastrado^assigned_to={"display":"Instrutor 1","value":"5c114ca12f1a6110c390b8e72799b6d3","table":"sys_user","sys_id":"5c114ca12f1a6110c390b8e72799b6d3"}</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fdf380a52f1a6110c390b8e72799b6b1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:51</sys_created_on>
+        <sys_id>79f380a52f1a6110c390b8e72799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:51</sys_updated_on>
+        <value>x_1039932_bootcamp_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=fdf380a52f1a6110c390b8e72799b6b1"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=fdf380a52f1a6110c390b8e72799b6b1"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=fdf380a52f1a6110c390b8e72799b6b1"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_hub_flow_variable action="DELETE" query="model=d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc^sys_idNOT INe9f380a52f1a6110c390b8e72799b6a4,edf380a52f1a6110c390b8e72799b6a7"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:51</sys_created_on>
+        <sys_id>e9f380a52f1a6110c390b8e72799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:51</sys_created_on>
+        <sys_id>edf380a52f1a6110c390b8e72799b6a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT INbff3c0a52f1a6110c390b8e72799b6fc"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"bff3c0a52f1a6110c390b8e72799b6fc","name":"plan","plan_signature":null}}</plan>
+        <plan_id>d022cce12f1a6110c390b8e72799b6dc</plan_id>
+        <snapshot>e3f3c0a52f1a6110c390b8e72799b677</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:35:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bff3c0a52f1a6110c390b8e72799b6fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:04</sys_updated_on>
+        <trigger display_value="">ae4198252f5a6110c390b8e72799b6a5</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=d022cce12f1a6110c390b8e72799b6dc"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>flow_bootcamper</internal_name>
+        <label_cache>[{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__action_status__.message","label":"1 - Create Task➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.Table","label":"2 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.Record","label":"2 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.Table","label":"1 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.Record","label":"1 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Flow Bootcamper</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Flow Bootcamper">d022cce12f1a6110c390b8e72799b6dc</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3f3c0a52f1a6110c390b8e72799b677</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:04</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_variable_value action="DELETE" query="document_key=e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=e3f3c0a52f1a6110c390b8e72799b677^sys_idNOT IN6ff3c0a52f1a6110c390b8e72799b6b5"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow Bootcamper">e3f3c0a52f1a6110c390b8e72799b677</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>6ff3c0a52f1a6110c390b8e72799b6b5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:05</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=6ff3c0a52f1a6110c390b8e72799b6b5"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6ff3c0a52f1a6110c390b8e72799b6b5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>67f3c0a52f1a6110c390b8e72799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:59</sys_updated_on>
+        <value>x_1039932_bootcamp_bootcamper</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6ff3c0a52f1a6110c390b8e72799b6b5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>a3f3c0a52f1a6110c390b8e72799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:59</sys_updated_on>
+        <value>course=Bootcamp</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="DELETE" query="flow=e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=e3f3c0a52f1a6110c390b8e72799b677^sys_idNOT IN63f3c0a52f1a6110c390b8e72799b678"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>e3f3c0a52f1a6110c390b8e72799b677</id>
+        <name>Flow Bootcamper</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:58</sys_created_on>
+        <sys_id>63f3c0a52f1a6110c390b8e72799b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=63f3c0a52f1a6110c390b8e72799b678"/>
+    <sys_hub_flow_input action="DELETE" query="model=e3f3c0a52f1a6110c390b8e72799b677^sys_idNOT IN67f3c0a52f1a6110c390b8e72799b69d,a3f3c0a52f1a6110c390b8e72799b679"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Flow Bootcamper">e3f3c0a52f1a6110c390b8e72799b677</model>
+        <model_id>e3f3c0a52f1a6110c390b8e72799b677</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>67f3c0a52f1a6110c390b8e72799b69d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Flow Bootcamper">e3f3c0a52f1a6110c390b8e72799b677</model>
+        <model_id>e3f3c0a52f1a6110c390b8e72799b677</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:58</sys_created_on>
+        <sys_id>a3f3c0a52f1a6110c390b8e72799b679</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_hub_action_instance action="DELETE" query="flow=e3f3c0a52f1a6110c390b8e72799b677^sys_idNOT IN23f3c0a52f1a6110c390b8e72799b6ae,23f3c0a52f1a6110c390b8e72799b6b4"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow Bootcamper">e3f3c0a52f1a6110c390b8e72799b677</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>23f3c0a52f1a6110c390b8e72799b6ae</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:04</sys_updated_on>
+        <ui_id>92f39aee-2b0f-4f07-8a1a-ab951ada3c1e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=23f3c0a52f1a6110c390b8e72799b6ae"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23f3c0a52f1a6110c390b8e72799b6ae</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>6bf3c0a52f1a6110c390b8e72799b6af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:03</sys_updated_on>
+        <value>description=Novo Bootcamper Cadastrado^assigned_to={"display":"Instrutor 1","value":"5c114ca12f1a6110c390b8e72799b6d3","table":"sys_user","sys_id":"5c114ca12f1a6110c390b8e72799b6d3"}</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23f3c0a52f1a6110c390b8e72799b6ae</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>a7f3c0a52f1a6110c390b8e72799b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:59</sys_updated_on>
+        <value>x_1039932_bootcamp_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=23f3c0a52f1a6110c390b8e72799b6ae"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=23f3c0a52f1a6110c390b8e72799b6ae"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=23f3c0a52f1a6110c390b8e72799b6ae"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow Bootcamper">e3f3c0a52f1a6110c390b8e72799b677</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>23f3c0a52f1a6110c390b8e72799b6b4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:04</sys_updated_on>
+        <ui_id>7092cc40-ea96-4a4a-a809-da90262aa02c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=23f3c0a52f1a6110c390b8e72799b6b4"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23f3c0a52f1a6110c390b8e72799b6b4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>6bf3c0a52f1a6110c390b8e72799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:59</sys_updated_on>
+        <value>description=Novo Bootcamper Cadastrado^assigned_to={"display":"Instrutor 2","value":"a44184e12f1a6110c390b8e72799b6ee","table":"sys_user","sys_id":"a44184e12f1a6110c390b8e72799b6ee"}</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23f3c0a52f1a6110c390b8e72799b6b4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>a7f3c0a52f1a6110c390b8e72799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:59</sys_updated_on>
+        <value>x_1039932_bootcamp_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=23f3c0a52f1a6110c390b8e72799b6b4"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=23f3c0a52f1a6110c390b8e72799b6b4"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=23f3c0a52f1a6110c390b8e72799b6b4"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_hub_flow_variable action="DELETE" query="model=e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677^sys_idNOT IN2ff3c0a52f1a6110c390b8e72799b699,ebf3c0a52f1a6110c390b8e72799b6a1"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>2ff3c0a52f1a6110c390b8e72799b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:34:59</sys_created_on>
+        <sys_id>ebf3c0a52f1a6110c390b8e72799b6a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:34:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_e3f3c0a52f1a6110c390b8e72799b677"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>d022cce12f1a6110c390b8e72799b6dc</sys_id>
+        <latest_snapshot>e3f3c0a52f1a6110c390b8e72799b677</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch4b-01-31-2023_02-07-2023_1702.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</application>
+        <file_path/>
+        <instance_id>a8d49a3fdbffd304ff27d5b0cf96192a</instance_id>
+        <instance_name>dev70559</instance_name>
+        <name>sys_hub_flow_d022cce12f1a6110c390b8e72799b6dc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;flow_bootcamper&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__action_status__.message","label":"1 - Create Task➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.Table","label":"2 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.Record","label":"2 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.Table","label":"1 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.Record","label":"1 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/master_snapshot&gt;&lt;name&gt;Flow Bootcamper&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;ae4198252f5a6110c390b8e72799b6a5&lt;/remote_trigger_id&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:26:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Flow Bootcamper&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_d022cce12f1a6110c390b8e72799b6dc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:10&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="x_1039932_bootcamp_bootcamper"&gt;course=Bootcamp&lt;item display_value="Bootcamp" endquery="false" field="course" goto="false" newquery="false" operator="=" or="false" value="Bootcamp"/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;true&lt;/on_insert&gt;&lt;on_update&gt;false&lt;/on_update&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_on_extended&gt;false&lt;/run_on_extended&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 01:33:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ae4198252f5a6110c390b8e72799b6a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:04&lt;/sys_updated_on&gt;&lt;table&gt;x_1039932_bootcamp_bootcamper&lt;/table&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_trigger_runner_mapping action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;data&gt;{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}&lt;/data&gt;&lt;identifier&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/identifier&gt;&lt;runner&gt;FDTriggerRunner&lt;/runner&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 01:33:04&lt;/sys_created_on&gt;&lt;sys_id&gt;2a4198252f5a6110c390b8e72799b6a6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:04&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;ae4198252f5a6110c390b8e72799b6a5&lt;/trigger&gt;&lt;/sys_trigger_runner_mapping&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT IN2a4198252f5a6110c390b8e72799b6a6"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT INb1f380a52f1a6110c390b8e72799b6ab"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow Bootcamper"&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/flow&gt;&lt;name&gt;Created&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:51&lt;/sys_created_on&gt;&lt;sys_id&gt;b1f380a52f1a6110c390b8e72799b6ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:05&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b1f380a52f1a6110c390b8e72799b6ab"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;b1f380a52f1a6110c390b8e72799b6ab&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:51&lt;/sys_created_on&gt;&lt;sys_id&gt;b1f380a52f1a6110c390b8e72799b6ac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:51&lt;/sys_updated_on&gt;&lt;value&gt;course=Bootcamp&lt;/value&gt;&lt;variable display_value="Condition"&gt;66aadea0c31322002841b63b12d3aebf&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;b1f380a52f1a6110c390b8e72799b6ab&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:51&lt;/sys_created_on&gt;&lt;sys_id&gt;b9f380a52f1a6110c390b8e72799b6ac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:51&lt;/sys_updated_on&gt;&lt;value&gt;x_1039932_bootcamp_bootcamper&lt;/value&gt;&lt;variable display_value="Table"&gt;cfca92e0c31322002841b63b12d3ae00&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT INdc22cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/id&gt;&lt;name&gt;Flow Bootcamper&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:26:51&lt;/sys_created_on&gt;&lt;sys_id&gt;dc22cce12f1a6110c390b8e72799b6dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:26:51&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=dc22cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT IN69f380a52f1a6110c390b8e72799b6a1,a9f380a52f1a6110c390b8e72799b6a5"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Flow Bootcamper"&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/model&gt;&lt;model_id&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:51&lt;/sys_created_on&gt;&lt;sys_id&gt;69f380a52f1a6110c390b8e72799b6a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Flow Bootcamper"&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/model&gt;&lt;model_id&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:51&lt;/sys_created_on&gt;&lt;sys_id&gt;a9f380a52f1a6110c390b8e72799b6a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT INf1f380a52f1a6110c390b8e72799b6b9,fdf380a52f1a6110c390b8e72799b6b1"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Task"&gt;2b3a6335531003003bf1d9109ec58759&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow Bootcamper"&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:52&lt;/sys_created_on&gt;&lt;sys_id&gt;f1f380a52f1a6110c390b8e72799b6b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:05&lt;/sys_updated_on&gt;&lt;ui_id&gt;7092cc40-ea96-4a4a-a809-da90262aa02c&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f1f380a52f1a6110c390b8e72799b6b9"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;f1f380a52f1a6110c390b8e72799b6b9&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:52&lt;/sys_created_on&gt;&lt;sys_id&gt;3df380a52f1a6110c390b8e72799b6ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:52&lt;/sys_updated_on&gt;&lt;value&gt;description=Novo Bootcamper Cadastrado^assigned_to={"display":"Instrutor 2","value":"a44184e12f1a6110c390b8e72799b6ee","table":"sys_user","sys_id":"a44184e12f1a6110c390b8e72799b6ee"}&lt;/value&gt;&lt;variable display_value="Field Values"&gt;273a6335531003003bf1d9109ec5876b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;f1f380a52f1a6110c390b8e72799b6b9&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:52&lt;/sys_created_on&gt;&lt;sys_id&gt;79f380a52f1a6110c390b8e72799b6ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:52&lt;/sys_updated_on&gt;&lt;value&gt;x_1039932_bootcamp_tasks&lt;/value&gt;&lt;variable display_value="Table"&gt;e73a6335531003003bf1d9109ec5875c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=f1f380a52f1a6110c390b8e72799b6b9"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=f1f380a52f1a6110c390b8e72799b6b9"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=f1f380a52f1a6110c390b8e72799b6b9"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Task"&gt;2b3a6335531003003bf1d9109ec58759&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow Bootcamper"&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:51&lt;/sys_created_on&gt;&lt;sys_id&gt;fdf380a52f1a6110c390b8e72799b6b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:05&lt;/sys_updated_on&gt;&lt;ui_id&gt;92f39aee-2b0f-4f07-8a1a-ab951ada3c1e&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=fdf380a52f1a6110c390b8e72799b6b1"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;fdf380a52f1a6110c390b8e72799b6b1&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:51&lt;/sys_created_on&gt;&lt;sys_id&gt;3df380a52f1a6110c390b8e72799b6b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:32:29&lt;/sys_updated_on&gt;&lt;value&gt;description=Novo Bootcamper Cadastrado^assigned_to={"display":"Instrutor 1","value":"5c114ca12f1a6110c390b8e72799b6d3","table":"sys_user","sys_id":"5c114ca12f1a6110c390b8e72799b6d3"}&lt;/value&gt;&lt;variable display_value="Field Values"&gt;273a6335531003003bf1d9109ec5876b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;fdf380a52f1a6110c390b8e72799b6b1&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:51&lt;/sys_created_on&gt;&lt;sys_id&gt;79f380a52f1a6110c390b8e72799b6b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:51&lt;/sys_updated_on&gt;&lt;value&gt;x_1039932_bootcamp_tasks&lt;/value&gt;&lt;variable display_value="Table"&gt;e73a6335531003003bf1d9109ec5875c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=fdf380a52f1a6110c390b8e72799b6b1"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=fdf380a52f1a6110c390b8e72799b6b1"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=fdf380a52f1a6110c390b8e72799b6b1"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc^sys_idNOT INe9f380a52f1a6110c390b8e72799b6a4,edf380a52f1a6110c390b8e72799b6a7"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:51&lt;/sys_created_on&gt;&lt;sys_id&gt;e9f380a52f1a6110c390b8e72799b6a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:51&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:51&lt;/sys_created_on&gt;&lt;sys_id&gt;edf380a52f1a6110c390b8e72799b6a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:51&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=d022cce12f1a6110c390b8e72799b6dc^sys_idNOT INbff3c0a52f1a6110c390b8e72799b6fc"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.OncePerRecord&lt;/binding_strategy&gt;&lt;plan&gt;{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"bff3c0a52f1a6110c390b8e72799b6fc","name":"plan","plan_signature":null}}&lt;/plan&gt;&lt;plan_id&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/plan_id&gt;&lt;snapshot&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:35:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bff3c0a52f1a6110c390b8e72799b6fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:04&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;ae4198252f5a6110c390b8e72799b6a5&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=d022cce12f1a6110c390b8e72799b6dc"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;flow_bootcamper&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__action_status__.message","label":"1 - Create Task➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.Table","label":"2 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7092cc40-ea96-4a4a-a809-da90262aa02c.Record","label":"2 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.Table","label":"1 - Create Task➛Tasks Table","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92f39aee-2b0f-4f07-8a1a-ab951ada3c1e.Record","label":"1 - Create Task➛Tasks Record","reference":"x_1039932_bootcamp_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Flow Bootcamper&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Flow Bootcamper"&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:04&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=e3f3c0a52f1a6110c390b8e72799b677^sys_idNOT IN6ff3c0a52f1a6110c390b8e72799b6b5"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow Bootcamper"&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/flow&gt;&lt;name&gt;Created&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;6ff3c0a52f1a6110c390b8e72799b6b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:05&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6ff3c0a52f1a6110c390b8e72799b6b5"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;6ff3c0a52f1a6110c390b8e72799b6b5&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;67f3c0a52f1a6110c390b8e72799b6b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:59&lt;/sys_updated_on&gt;&lt;value&gt;x_1039932_bootcamp_bootcamper&lt;/value&gt;&lt;variable display_value="Table"&gt;cfca92e0c31322002841b63b12d3ae00&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;6ff3c0a52f1a6110c390b8e72799b6b5&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;a3f3c0a52f1a6110c390b8e72799b6b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:59&lt;/sys_updated_on&gt;&lt;value&gt;course=Bootcamp&lt;/value&gt;&lt;variable display_value="Condition"&gt;66aadea0c31322002841b63b12d3aebf&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=e3f3c0a52f1a6110c390b8e72799b677^sys_idNOT IN63f3c0a52f1a6110c390b8e72799b678"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/id&gt;&lt;name&gt;Flow Bootcamper&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:58&lt;/sys_created_on&gt;&lt;sys_id&gt;63f3c0a52f1a6110c390b8e72799b678&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:58&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=63f3c0a52f1a6110c390b8e72799b678"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=e3f3c0a52f1a6110c390b8e72799b677^sys_idNOT IN67f3c0a52f1a6110c390b8e72799b69d,a3f3c0a52f1a6110c390b8e72799b679"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Flow Bootcamper"&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/model&gt;&lt;model_id&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;67f3c0a52f1a6110c390b8e72799b69d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:03&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Flow Bootcamper"&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/model&gt;&lt;model_id&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:58&lt;/sys_created_on&gt;&lt;sys_id&gt;a3f3c0a52f1a6110c390b8e72799b679&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:03&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=e3f3c0a52f1a6110c390b8e72799b677^sys_idNOT IN23f3c0a52f1a6110c390b8e72799b6ae,23f3c0a52f1a6110c390b8e72799b6b4"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Task"&gt;2b3a6335531003003bf1d9109ec58759&lt;/action_type&gt;&lt;action_type_parent display_value="Create Task"&gt;3f9b1ff1531003003bf1d9109ec58775&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow Bootcamper"&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;23f3c0a52f1a6110c390b8e72799b6ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:04&lt;/sys_updated_on&gt;&lt;ui_id&gt;92f39aee-2b0f-4f07-8a1a-ab951ada3c1e&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=23f3c0a52f1a6110c390b8e72799b6ae"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;23f3c0a52f1a6110c390b8e72799b6ae&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;6bf3c0a52f1a6110c390b8e72799b6af&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:03&lt;/sys_updated_on&gt;&lt;value&gt;description=Novo Bootcamper Cadastrado^assigned_to={"display":"Instrutor 1","value":"5c114ca12f1a6110c390b8e72799b6d3","table":"sys_user","sys_id":"5c114ca12f1a6110c390b8e72799b6d3"}&lt;/value&gt;&lt;variable display_value="Field Values"&gt;273a6335531003003bf1d9109ec5876b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;23f3c0a52f1a6110c390b8e72799b6ae&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;a7f3c0a52f1a6110c390b8e72799b6af&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:59&lt;/sys_updated_on&gt;&lt;value&gt;x_1039932_bootcamp_tasks&lt;/value&gt;&lt;variable display_value="Table"&gt;e73a6335531003003bf1d9109ec5875c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=23f3c0a52f1a6110c390b8e72799b6ae"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=23f3c0a52f1a6110c390b8e72799b6ae"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=23f3c0a52f1a6110c390b8e72799b6ae"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Task"&gt;2b3a6335531003003bf1d9109ec58759&lt;/action_type&gt;&lt;action_type_parent display_value="Create Task"&gt;3f9b1ff1531003003bf1d9109ec58775&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow Bootcamper"&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;23f3c0a52f1a6110c390b8e72799b6b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 01:33:04&lt;/sys_updated_on&gt;&lt;ui_id&gt;7092cc40-ea96-4a4a-a809-da90262aa02c&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=23f3c0a52f1a6110c390b8e72799b6b4"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;23f3c0a52f1a6110c390b8e72799b6b4&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;6bf3c0a52f1a6110c390b8e72799b6b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:59&lt;/sys_updated_on&gt;&lt;value&gt;description=Novo Bootcamper Cadastrado^assigned_to={"display":"Instrutor 2","value":"a44184e12f1a6110c390b8e72799b6ee","table":"sys_user","sys_id":"a44184e12f1a6110c390b8e72799b6ee"}&lt;/value&gt;&lt;variable display_value="Field Values"&gt;273a6335531003003bf1d9109ec5876b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;23f3c0a52f1a6110c390b8e72799b6b4&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;a7f3c0a52f1a6110c390b8e72799b6b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:59&lt;/sys_updated_on&gt;&lt;value&gt;x_1039932_bootcamp_tasks&lt;/value&gt;&lt;variable display_value="Table"&gt;e73a6335531003003bf1d9109ec5875c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=23f3c0a52f1a6110c390b8e72799b6b4"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=23f3c0a52f1a6110c390b8e72799b6b4"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=23f3c0a52f1a6110c390b8e72799b6b4"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677^sys_idNOT IN2ff3c0a52f1a6110c390b8e72799b699,ebf3c0a52f1a6110c390b8e72799b6a1"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;2ff3c0a52f1a6110c390b8e72799b699&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:59&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 00:34:59&lt;/sys_created_on&gt;&lt;sys_id&gt;ebf3c0a52f1a6110c390b8e72799b6a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;a6e4bc232f0ae110c390b8e72799b6a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 00:34:59&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e3f3c0a52f1a6110c390b8e72799b677"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;d022cce12f1a6110c390b8e72799b6dc&lt;/sys_id&gt;&lt;latest_snapshot&gt;e3f3c0a52f1a6110c390b8e72799b677&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-tokyo-07-08-2022__patch4b-01-31-2023_02-07-2023_1702.zip&lt;/compiler_build&gt;&lt;/sys_hub_flow&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1179962147</payload_hash>
+        <record_name>Flow Bootcamper</record_name>
+        <reverted_from/>
+        <source>e2e4bc232f0ae110c390b8e72799b6a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 01:33:12</sys_created_on>
+        <sys_id>d851d8252f5a6110c390b8e72799b688</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1879724ed6f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:33:12</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>1451d825d75a61102ef5d98f5aafdb88</update_guid>
+        <update_guid_history>1451d825d75a61102ef5d98f5aafdb88:1179962147,ba419825145a6110aaed4a5284e70ddc:-408563334,8a419825b25a6110649352e73d1d8e36:-1832845842,5e21d425695a61103c2599a6268d8ef6:-1747627390,c80404a51b1a61105538468a7aea6e2a:1452303236,13f3c0a5311a6110e3b4812e6b936a68:998974283,82f380a5e11a61105e92dcd5172ac6d0:-1976943862,ec2244250e1a6110831390782f5dceb7:-520030578</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 01:38:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>0017c8134e5a4b9c80000cce2c8cde84</sys_id>
+        <sys_metadata>d022cce12f1a6110c390b8e72799b6dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flow Bootcamper</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_scope_delete display_value="">09b3b650c8de46108874836462fa9840</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_d022cce12f1a6110c390b8e72799b6dc</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_d022cce12f1a6110c390b8e72799b6dc">d851d8252f5a6110c390b8e72799b688</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:38:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

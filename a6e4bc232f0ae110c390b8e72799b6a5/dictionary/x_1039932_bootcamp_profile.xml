@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8bb7d5672f8ae110c390b8e72799b69c" label="Profile" max_length="40" name="x_1039932_bootcamp_profile" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element display="true" label="Bootcamper" max_length="120" name="bootcamper" reference="x_1039932_bootcamp_bootcampers" type="reference"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Comments" max_length="40" name="comments" type="string"/>
+        <element label="Course" max_length="40" name="course" type="string"/>
+        <element label="Estate" max_length="2" name="estate" type="string"/>
+        <element label="Neighborhood" max_length="40" name="neighborhood" type="string"/>
+        <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
+    </element>
+</database>

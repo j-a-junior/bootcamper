@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>true</is_extendable>
+        <label>Bootcamper_OLD</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1039932_bootcamp_bootcamper</name>
+        <number_ref display_value="BOOTCAMPER">2d0a74a72f0ae110c390b8e72799b645</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 23:10:24</sys_created_on>
+        <sys_id>dc55bc632f0ae110c390b8e72799b6ff</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Bootcamper_OLD</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name>sys_db_object_dc55bc632f0ae110c390b8e72799b6ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:52:38</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1039932_bootcamp.bootcamper_admin" name="x_1039932_bootcamp.bootcamper_admin">a562517f2f462110c390b8e72799b603</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</application>
+        <file_path/>
+        <instance_id>a8d49a3fdbffd304ff27d5b0cf96192a</instance_id>
+        <instance_name>dev70559</instance_name>
+        <name>sys_db_object_dc55bc632f0ae110c390b8e72799b6ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>true</is_extendable><label>Bootcamper_OLD</label><live_feed_enabled>false</live_feed_enabled><name>x_1039932_bootcamp_bootcamper</name><number_ref display_value="BOOTCAMPER">2d0a74a72f0ae110c390b8e72799b645</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-12 23:10:24</sys_created_on><sys_id>dc55bc632f0ae110c390b8e72799b6ff</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Bootcamper_OLD</sys_name><sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package><sys_policy/><sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope><sys_update_name>sys_db_object_dc55bc632f0ae110c390b8e72799b6ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-19 00:52:38</sys_updated_on><update_access>false</update_access><user_role display_value="x_1039932_bootcamp.bootcamper_admin" name="x_1039932_bootcamp.bootcamper_admin">a562517f2f462110c390b8e72799b603</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1588124685</payload_hash>
+        <record_name>Bootcamper_OLD</record_name>
+        <reverted_from/>
+        <source>e2e4bc232f0ae110c390b8e72799b6a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 00:52:39</sys_created_on>
+        <sys_id>e60884a92f1a6110c390b8e72799b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18796ffcedb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 00:52:39</sys_updated_on>
+        <type>Table</type>
+        <update_guid>220884a9b61a6110d8db5913e1ccf0fa</update_guid>
+        <update_guid_history>220884a9b61a6110d8db5913e1ccf0fa:-1588124685,2cb2957f76462110cd051c8f3033c418:1455741977,05425d3f494621101c7c16850a249ce3:1383484864,331c416b014ae110ca7fb1650de98f10:-1667169816,331c416b014ae110ca7fb1650de98f10:-1667169816,86ee302f570ae110dae88b36d0090363:-2046358585,d7ce302f120ae1103edea3d9c6c9071e:-1667169816,499db4ab710ae110c775402c2bdcd59e:-2046358585,f10a74a79b0ae1103a10f1fdc986f84a:-1589483535,621778e30c0ae110f523e17721517811:1344067668</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 22:08:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>005725037215404180001e34ebb3e3c1</sys_id>
+        <sys_metadata>dc55bc632f0ae110c390b8e72799b6ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bootcamper_OLD</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_scope_delete display_value="">09b3b650c8de46108874836462fa9840</sys_scope_delete>
+        <sys_update_name>sys_db_object_dc55bc632f0ae110c390b8e72799b6ff</sys_update_name>
+        <sys_update_version display_value="sys_db_object_dc55bc632f0ae110c390b8e72799b6ff">e60884a92f1a6110c390b8e72799b6fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 22:08:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4c4648292f1a6110c390b8e72799b674" extends="task" label="Bootcampers" max_length="40" name="x_1039932_bootcamp_bootcampers" type="collection">
+        <element label="Active user on ServiceNow" max_length="40" name="active_user_on_servicenow" type="boolean"/>
+        <element choice="1" label="Course" mandatory="true" max_length="40" name="course" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bootcamp" sequence="100" value="Bootcamp"/>
+                <element inactive_on_update="false" label="ServiceNow Fundamentals" sequence="200" value="ServiceNow Fundamentals"/>
+                <element inactive_on_update="false" label="Shark Talent" sequence="300" value="Shark Talent"/>
+            </choice>
+        </element>
+        <element label="E-mail" max_length="40" name="e_mail" type="string"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="100" value="Male"/>
+                <element inactive_on_update="false" label="Female" sequence="200" value="Female"/>
+                <element inactive_on_update="false" label="Other" sequence="300" value="Other"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Occupation" max_length="40" name="occupation" type="string"/>
+        <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
+    </element>
+</database>

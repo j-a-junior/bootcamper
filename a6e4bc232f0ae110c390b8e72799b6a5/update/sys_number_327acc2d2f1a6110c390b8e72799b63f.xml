@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1039932_bootcamp_bootcampers">x_1039932_bootcamp_bootcampers</category>
+        <maximum_digits>7</maximum_digits>
+        <number>0</number>
+        <prefix>BOOTCAMPERS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 01:03:20</sys_created_on>
+        <sys_id>327acc2d2f1a6110c390b8e72799b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BOOTCAMPERS</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_update_name>sys_number_327acc2d2f1a6110c390b8e72799b63f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 01:03:20</sys_updated_on>
+    </sys_number>
+</record_update>

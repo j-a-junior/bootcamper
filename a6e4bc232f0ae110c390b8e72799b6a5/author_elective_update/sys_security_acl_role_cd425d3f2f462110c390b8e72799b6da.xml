@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 19:47:35</sys_created_on>
+        <sys_id>cd425d3f2f462110c390b8e72799b6da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1039932_bootcamp_bootcamper.x_1039932_bootcamp.bootcamper_user</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_security_acl display_value="x_1039932_bootcamp_bootcamper">c5425d3f2f462110c390b8e72799b6d8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cd425d3f2f462110c390b8e72799b6da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 19:49:28</sys_updated_on>
+        <sys_user_role display_value="x_1039932_bootcamp.bootcamper_user" name="x_1039932_bootcamp.bootcamper_user">a562517f2f462110c390b8e72799b603</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</application>
+        <file_path/>
+        <instance_id>a8d49a3fdbffd304ff27d5b0cf96192a</instance_id>
+        <instance_name>dev70559</instance_name>
+        <name>sys_security_acl_role_cd425d3f2f462110c390b8e72799b6da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-13 19:47:35</sys_created_on><sys_id>cd425d3f2f462110c390b8e72799b6da</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1039932_bootcamp_bootcamper.x_1039932_bootcamp.bootcamper_user</sys_name><sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package><sys_policy/><sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope><sys_security_acl display_value="x_1039932_bootcamp_bootcamper">c5425d3f2f462110c390b8e72799b6d8</sys_security_acl><sys_update_name>sys_security_acl_role_cd425d3f2f462110c390b8e72799b6da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-13 19:49:28</sys_updated_on><sys_user_role display_value="x_1039932_bootcamp.bootcamper_user" name="x_1039932_bootcamp.bootcamper_user">a562517f2f462110c390b8e72799b603</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>918597991</payload_hash>
+        <record_name>x_1039932_bootcamp_bootcamper.x_1039932_bootcamp.bootcamper_user</record_name>
+        <reverted_from/>
+        <source>e2e4bc232f0ae110c390b8e72799b6a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 19:49:28</sys_created_on>
+        <sys_id>24b2957f2f462110c390b8e72799b614</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1877c2a6f6d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 19:49:28</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6cb2957f4646211033dae82d19e93c13</update_guid>
+        <update_guid_history>6cb2957f4646211033dae82d19e93c13:918597991,89425d3f3a462110f28454fba00082dc:1512868453</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1039932_bootcamp_bootcamper.x_1039932_bootcamp.bootcamper_user">58a5f9ca2f1ee110c390b8e72799b64d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 22:08:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>04ebc95da15c41a480a6d9a11c279cc1</sys_id>
+        <sys_metadata>cd425d3f2f462110c390b8e72799b6da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1039932_bootcamp_bootcamper.x_1039932_bootcamp.bootcamper_user</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_1039932_bootcamp">a6e4bc232f0ae110c390b8e72799b6a5</sys_package>
+        <sys_parent display_value="">c5425d3f2f462110c390b8e72799b6d8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">a6e4bc232f0ae110c390b8e72799b6a5</sys_scope>
+        <sys_scope_delete display_value="">09b3b650c8de46108874836462fa9840</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_cd425d3f2f462110c390b8e72799b6da</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_cd425d3f2f462110c390b8e72799b6da">24b2957f2f462110c390b8e72799b614</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 22:08:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
